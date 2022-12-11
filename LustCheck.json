@@ -25,7 +25,6 @@
         "13": "Adaugata optiune pentru screenshot automat la solicitari in cazul licentelor fly si boat (cu mod automat activat).",
         "14": "De acum, se vor salva preferintele pentru testele gun/fly/boat automate.",
         "15": " ",
-
         "16": "--- v1.4 ---",
         "17": "De acum, puteti activa din setari optiunea de a porni motorul masinii + farurile acesteia automat cand urcati intr-o masina. Optiunea este dezactivata by default.",
         "18": "A fost adaugata optiunea de a afisa informatiile din /stats intr-un dialog. Optiunea poate fi activata/dezactivata din setari, iar default este dezactivata.",
@@ -44,7 +43,6 @@
         "31": "Adaugata o lista cu toate actualizarile modului de pana acum.",
         "32": "Cod optimizat.",
         "33": " ",
-
         "34": "--- v1.3 ---",
         "35": "Optimizat meniul pentru rezolutii <= 1920.",
         "36": "Adaugate raspunsuri cu punct la final pentru gun automat. Exemple: a. / B.",
@@ -63,20 +61,17 @@
         "49": "A fost adaugata optiunea de auto login pentru a nu mai pune parola pe server. Pentru inceput, trebuie sa setati parola curenta prin /setpw.",
         "50": "Comenzile /vt si /intest pot fi activate/dezactivate din setari.",
         "51": " ",
-
         "52": "--- v1.2 ---",
         "53": "Design actualizat.",
         "54": "Meniu adaugat.",
         "55": "Dezvoltat un sistem pentru licenta gun automata.",
         "56": "Code improvements.",
         "57": " ",
-
         "58": "--- v1.1 ---",
         "59": "Adaugat smartphone (sms si call dupa id sau nume).",
         "60": "Adaugata o tema noua.",
         "61": "De acum, modul va primi actualizari automate de la developer.",
         "62": " ",
-
         "63": "--- v1.0 ---",
         "64": "Create teste pentru licenta.",
         "65": "Create comenzi utile pentru instructori: anuntare licente, tog la chat-uri, publicare anunturi la CNN / pe chat-ul normal.",
