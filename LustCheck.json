@@ -2,7 +2,7 @@
     "info": {
         "buildVersion": "1600",
         "cmdVersion": "1.6.0.0",
-        "securityUpdate": "yes"
+        "securityUpdate": "no"
     },
     "whatsNew": [
         "Actualizari de securitate.",
