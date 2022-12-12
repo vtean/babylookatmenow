@@ -4,11 +4,10 @@
         "cmdVersion": "1.6.0.0",
         "securityUpdate": "yes"
     },
-    "whatsNew": {
-        "1": "Actualizari de securitate.",
-        "2": "Cod imbunatatit, bug fixes."
-        
-    },
+    "whatsNew": [
+        "Actualizari de securitate.",
+        "Cod imbunatatit, bug fixes."
+    ],
     "updateLogs": [
         "--- v1.5 ---",
         "A fost adaugat un sistem pentru acordarea licentelor de tip boat in mod semi-automat.",
@@ -76,7 +75,7 @@
         "Adaugata o tema noua.",
         "De acum, modul va primi actualizari automate de la developer.",
         " ",
-        
+
         "--- v1.0 ---",
         "Create teste pentru licenta.",
         "Create comenzi utile pentru instructori: anuntare licente, tog la chat-uri, publicare anunturi la CNN / pe chat-ul normal.",
