@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2000",
-        "cmdVersion": "2.0.0.0",
+        "buildVersion": "2100",
+        "cmdVersion": "2.1.0.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Adaugat un sistem de prieteni care se sincronizeaza cu sistemul /friends de pe server. Momentan, poti vedea doar lista prietenilor din CMD si vei primi o instiintare in chat cand acesta paraseste serverul.",
         "Adaugata tema noua (Cute Pink) special pentru Alex <3.",
         "Adaugata comanda /spawn, nu abuzati de ea.",
         "Actualizari de securitate.",
