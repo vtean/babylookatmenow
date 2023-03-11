@@ -1,7 +1,7 @@
 {
     "info": {
-        "buildVersion": "2151",
-        "cmdVersion": "2.1.5.1",
+        "buildVersion": "2200",
+        "cmdVersion": "2.2.0.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
