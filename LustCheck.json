@@ -5,6 +5,7 @@
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Setarile au fost trecute intr-ul alt format. Aveti nevoie de un alt fisier pentru ca modul sa functioneze in mod normal.",
         "Actualizat design-ul pentru meniul prietenilor.",
         "Parolele salvate pentru auto login sunt deja criptate.",
         "Modificata marimea iconitelor din meniu.",
