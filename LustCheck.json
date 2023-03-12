@@ -1,10 +1,12 @@
 {
     "info": {
-        "buildVersion": "2200",
-        "cmdVersion": "2.2.0.0",
+        "buildVersion": "2210",
+        "cmdVersion": "2.2.1.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Adaugata optiunea de a afisa HP-ul masinii in care te afli. Optiunea poate fi activata/dezactivata din setari.",
+        "Restructura meniul de setari pentru o utilizare mai comoda.",
         "Setarile au fost trecute intr-ul alt format. Aveti nevoie de un alt fisier pentru ca modul sa functioneze in mod normal.",
         "Actualizat design-ul pentru meniul prietenilor.",
         "Parolele salvate pentru auto login sunt deja criptate.",
