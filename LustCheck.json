@@ -9,7 +9,7 @@
         "Rezolvate erorile de incarcare a modurilor. Nu ar mai trebui sa primiti crash la update, si de asemenea ar trebui ca modul sa porneasca din prima.",
         "Rezolvate bug-uri la prieteni pentru nickname-urile si clanurile ce contin paranteze patrate.",
         "Adaugata optiunea de a afisa HP-ul masinii in care te afli. Optiunea poate fi activata/dezactivata din setari.",
-        "Restructurat meniul de setari pentru o utilizare mai comoda.",
+        "Restructurat meniul de setari pentru o utilizare mai comoda."
     ],
     "updateLogsNew": {
         "v2.1": [
