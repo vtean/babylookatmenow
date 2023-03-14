@@ -1,10 +1,12 @@
 {
     "info": {
-        "buildVersion": "2222",
-        "cmdVersion": "2.2.2.2",
+        "buildVersion": "2230",
+        "cmdVersion": "2.2.3.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Modificata lista actualizarilor pentru a fi afisate in ordinea corecta.",
+        "Adaugata optiunea fuck casino pentru a bloca accesul in incapere. Este setata o parola (preferabil sa o pui random) si nu se dezactiveaza pana nu pui parola corecta.",
         "Restructurata pagina actualizarilor. Acum fiecare versiune are un grup al ei.",
         "Rezolvate erorile de incarcare a modurilor. Nu ar mai trebui sa primiti crash la update, si de asemenea ar trebui ca modul sa porneasca din prima.",
         "Rezolvate bug-uri la prieteni pentru nickname-urile si clanurile ce contin paranteze patrate.",
