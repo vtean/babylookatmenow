@@ -27,46 +27,54 @@
             "Actualizari de securitate.",
             "Cod imbunatatit, bug fixes."
         ],
-        "v1.5": [
+        "v1.9": [
             "A fost adaugat un sistem pentru acordarea licentelor de tip boat in mod semi-automat.",
             "Momentan, nu a fost posibila verificarea ajungerii la un mal, deci va trebui voi sa apasati manual butonul [Test licenta] dupa ce modul va detecta ca s-a deplasat din locul de pornire. Dupa aceasta, modul va continua sa faca totul in mod automat pana la acordarea licentei. ATENTIE! Sistemul este inca in stagiul beta, deci pot aparea anumite probleme / buguri.",
             "A fost adaugat un sistem pentru acordarea licentei fly in mod automat. Momentan, acesta este inca in stagiul beta, de aceea pot aparea anumite probleme. Daca intampinati buguri, nu ezitati sa ma contactati.",
             "Pentru a folosi metoda de acodare a licentelor fly in mod automat, dupa ce selectati tipul licentei, apasati pe butonul de toggle [Test fly automat] si dupa aceasta pe [Test licenta], de aici modul va face totul automat.",
-            "Adaugat /startlesson automat atunci cand se detecteaza ca clientul are level 90+.",
+            "Adaugat /startlesson automat atunci cand se detecteaza ca clientul are level 90+."
+        ],
+        "v1.8": [
             "Rezolvat un bug de la licenta gun automata.",
             "Pentru verificatori: A fost adaugata optiune de a duce evidenta testelor cerute. Acestea se inregistreaza automat cand folositi comanda /vt si se sterg numai atunci cand le stergeti voi. Accesati meniul -> Instructor -> Teste cerute pentru a vedea lista, sau folositi comanda /teste. De asemenea, veti primi cate un reminder in chat dupa ce expira cate o ora. Optiunea va fi disponibila numai daca aveti activat /vt-ul din setari.",
             "Micsorat range-ul la revenire la licentele fly si boat automate.",
             "Rezolvate unele buguri critice.",
             "Adaugata verificare daca clientul are level 90+ atunci cand apasati butonul [Test licenta]. Daca acesta are peste level 90, modul va cere automat numai banii. Asigurati-va ca aveti metoda automata de acordare a licentelor activata.",
-            "Rezolvate anumite buguri in cazul acordarii automate a licentei fly.",
-            "Adaugata optiune pentru screenshot automat la solicitari in cazul licentelor fly si boat (cu mod automat activat).",
-            "De acum, se vor salva preferintele pentru testele gun/fly/boat automate."
+            "Rezolvate anumite buguri in cazul acordarii automate a licentei fly."
         ],
-        "v1.4": [
+        "v1.7": [
+            "Adaugata optiune pentru screenshot automat la solicitari in cazul licentelor fly si boat (cu mod automat activat).",
+            "De acum, se vor salva preferintele pentru testele gun/fly/boat automate.",
             "De acum, puteti activa din setari optiunea de a porni motorul masinii + farurile acesteia automat cand urcati intr-o masina. Optiunea este dezactivata by default.",
             "A fost adaugata optiunea de a afisa informatiile din /stats intr-un dialog. Optiunea poate fi activata/dezactivata din setari, iar default este dezactivata.",
-            "A fost adaugata optiunea de a da automat /engine si /fill atunci cand opresti masina la o benzinarie. Optiunea poate fi activata/dezactivata din setari.",
+            "A fost adaugata optiunea de a da automat /engine si /fill atunci cand opresti masina la o benzinarie. Optiunea poate fi activata/dezactivata din setari."
+        ],
+        "v1.6": [
             "A fost adaugata comanda [/buyguns]. Cu ajutorul acesteia puteti cumpara un anumit numar de arme din gun shop.",
             "A fost prescurtata comanda /reply in /rp.",
             "Actualizari de securitate.",
             "Utilizarea comenzii /gk fara vreun ID, va da key automat celui mai apropiat jucator, iar /gk [id] - jucatorului cu ID-ul introdus.",
-            "Au fost mutati pasii cu numarul 2 de la licentele fly si boat. Dupa ce incepeti licenta, peste 5 secunde se vor da mesajele cu decolare / deplasare la un mal.",
+            "Au fost mutati pasii cu numarul 2 de la licentele fly si boat. Dupa ce incepeti licenta, peste 5 secunde se vor da mesajele cu decolare / deplasare la un mal."
+        ],
+        "v1.5": [
             "Rezolvat un bug la auto screenshot, care nu numara mereu randurile corect.",
             "Adaugata verificare pentru plata la licentele fly si boat. De acum, modul va astepta sa plateasca banii, o sa verifice daca au trecut 60 de secunde, iar dupa asta ii va da licenta.",
             "Rezolvat un bug ce nu vedea corect suma de $1,000,000 la plata licentei.",
-            "Adaugata optiune de auto screenshot la fiecare X randuri. Deschideti setarile pentru a configura.",
+            "Adaugata optiune de auto screenshot la fiecare X randuri. Deschideti setarile pentru a configura."
+        ],
+        "v1.4": [
             "Pentru rank 6/7 in factiuni: Cand jucatorul accepta /invite, o sa se trimita automat un mesaj de bun venit.",
             "Reparat un bug ce oprea modul la /vt.",
             "Adaugata o lista cu toate actualizarile modului de pana acum.",
-            "Cod optimizat."
-        ],
-        "v1.3": [
+            "Cod optimizat.",
             "Optimizat meniul pentru rezolutii <= 1920.",
             "Adaugate raspunsuri cu punct la final pentru gun automat. Exemple: a. / B.",
             "Adaugata comanda /fvr cu delay de 5 secunde.",
             "Adaugate comenzile /licf si /licin pentru anuntarea clientilor.",
             "Adaugate optiuni de auto getmats si fish.",
-            "Create doua teme noi",
+            "Create doua teme noi"
+        ],
+        "v1.3": [
             "Adaugata comanda /tt pentru mesaje rapide.",
             "Comanda /accr va gasi de acum singura id-ul celui care a oferit repair si/sau refill.",
             "Cand incepi un test, o sa iti dea modul automat /id cu jucatorul respectiv. Este util mai ales in cazurile cand clientul are level 90+.",
