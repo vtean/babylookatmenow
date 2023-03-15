@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2230",
-        "cmdVersion": "2.2.3.0",
+        "buildVersion": "2240",
+        "cmdVersion": "2.2.4.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Adaugata o tema noua (New Blue) si reparate anumite bug-uri vizuale ale altor teme.",
         "Modificata lista actualizarilor pentru a fi afisate in ordinea corecta.",
         "Adaugata optiunea fuck casino pentru a bloca accesul in incapere. Este setata o parola (preferabil sa o pui random) si nu se dezactiveaza pana nu pui parola corecta.",
         "Restructurata pagina actualizarilor. Acum fiecare versiune are un grup al ei.",
