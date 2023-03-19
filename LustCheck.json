@@ -1,7 +1,7 @@
 {
     "info": {
-        "buildVersion": "2400",
-        "cmdVersion": "2.4.0.0",
+        "buildVersion": "2401",
+        "cmdVersion": "2.4.0.1",
         "securityUpdate": "no"
     },
     "whatsNew": [
