@@ -1,18 +1,22 @@
 {
     "info": {
-        "buildVersion": "2300",
-        "cmdVersion": "2.3.0.0",
+        "buildVersion": "2400",
+        "cmdVersion": "2.4.0.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
-        "Smartphone-ul imbunatatit pentru a detecta mai bine nickname-urile cand se trimit mesaje dupa acestea.",
-        "Fuck casino imbunatatit.",
-        "Adaugate optiuni de activare/dezactivare a anumitor comenzi.",
-        "Adaugata o tema noua (New Blue) si reparate anumite bug-uri vizuale ale altor teme."
+        "Adaugat chat filter. Acum puteti exclude anumite randuri de chat ce contin unele cuvinte alese de voi. Acesta se gaseste in tab-ul Comenzi utile > Chat filter.",
+        "Adaugat Lust Chat. Cu ajutorul acestuia, puteti crea o camera in care sa discutati cu prietenii vostri. Conectati-va toti la acelasi ID si veti avea acces la chat. Optiunea poate fi activata/dezactivata din setari."
     ],
     "updateLogsNew": {
+        "v2.3": [
+            "Smartphone-ul imbunatatit pentru a detecta mai bine nickname-urile cand se trimit mesaje dupa acestea.",
+            "Fuck casino imbunatatit.",
+            "Adaugate optiuni de activare/dezactivare a anumitor comenzi.",
+            "Adaugata o tema noua (New Blue) si reparate anumite bug-uri vizuale ale altor teme.",
+            "Modificata lista actualizarilor pentru a fi afisate in ordinea corecta."
+        ],
         "v2.2": [
-            "Modificata lista actualizarilor pentru a fi afisate in ordinea corecta.",
             "Adaugata optiunea fuck casino pentru a bloca accesul in incapere. Este setata o parola (preferabil sa o pui random) si nu se dezactiveaza pana nu pui parola corecta.",
             "Restructurata pagina actualizarilor. Acum fiecare versiune are un grup al ei.",
             "Rezolvate erorile de incarcare a modurilor. Nu ar mai trebui sa primiti crash la update, si de asemenea ar trebui ca modul sa porneasca din prima.",
