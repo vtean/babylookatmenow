@@ -1,11 +1,11 @@
 {
     "info": {
-        "buildVersion": "2410",
-        "cmdVersion": "2.4.1.0",
+        "buildVersion": "2411",
+        "cmdVersion": "2.4.1.1",
         "securityUpdate": "no"
     },
     "whatsNew": [
-        "Bug fixes.",
+        "Rezolvat un bug ce facea ca toate script-urile lua sa se inchida din cauza la chat. Exista, totusi, inca o mica sansa pentru ca acest lucru sa se intample.",
         "Adaugata optiunea de a rescrie unele comenzi (/tt si /lm). Modificarea poate fi efectuate din tab-urile Smartphone, respectiv Lust chat.",
         "Adaugat chat filter. Puteti exclude anumite randuri de chat ce contin unele cuvinte alese de voi. Acesta se gaseste in tab-ul Comenzi utile > Chat filter.",
         "Adaugat Lust Chat. Cu ajutorul acestuia, puteti crea o camera in care sa discutati cu prietenii vostri. Conectati-va toti la acelasi ID si veti avea acces la chat. Optiunea poate fi activata/dezactivata din setari."
