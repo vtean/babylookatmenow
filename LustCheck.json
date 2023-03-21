@@ -6,7 +6,7 @@
     },
     "whatsNew": [
         "Modificat aspectul mesajului in Lust Chat.",
-        "Actualizari design,",
+        "Actualizari design.",
         "Rezolvat un bug ce facea ca toate script-urile lua sa se inchida din cauza la chat. Exista, totusi, inca o mica sansa pentru ca acest lucru sa se intample.",
         "Adaugata optiunea de a rescrie unele comenzi (/tt si /lm). Modificarea poate fi efectuate din tab-urile Smartphone, respectiv Lust chat.",
         "Adaugat chat filter. Puteti exclude anumite randuri de chat ce contin unele cuvinte alese de voi. Acesta se gaseste in tab-ul Comenzi utile > Chat filter.",
