@@ -14,11 +14,11 @@ local msxMsg = 3
 local notfList = {
 	pos = {
 		x = sX - 300,
-		y = sY - 50
+		y = sY - 300
 	},
 	npos = {
 		x = sX - 300,
-		y = sY - 50
+		y = sY - 300
 	},
 	size = {
 		x = 300,
@@ -26,17 +26,17 @@ local notfList = {
 	}
 }
 function setstyle()
-	style.WindowRounding             = 2.0
+	style.WindowRounding             = 5.0
 	style.WindowTitleAlign           = imgui_notf.ImVec2(0.5, 0.5)
-	style.ChildWindowRounding        = 2.0
-	style.FrameRounding              = 2.0
+	style.ChildWindowRounding        = 5.0
+	style.FrameRounding              = 5.0
 	style.ItemSpacing                = imgui_notf.ImVec2(5.0, 4.0)
 	style.ScrollbarSize              = 13.0
 	style.ScrollbarRounding          = 0
 	style.GrabMinSize                = 8.0
 	style.GrabRounding               = 1.0
 	-- style.Alpha =
-	style.WindowPadding              = imgui_notf.ImVec2(15.0, 15.0)
+	style.WindowPadding              = imgui_notf.ImVec2(10.0, 10.0)
 	style.WindowMinSize              = imgui_notf.ImVec2(1.0, 1.0)
 	style.FramePadding               = imgui_notf.ImVec2(3.5, 3.5)
 	-- style.ItemInnerSpacing =
@@ -61,9 +61,9 @@ function setstyle()
 	colors[clr.FrameBg]              = ImVec4(0.12, 0.12, 0.12, 0.94)
 	colors[clr.FrameBgHovered]       = ImVec4(0.45, 0.45, 0.45, 0.85)
 	colors[clr.FrameBgActive]        = ImVec4(0.63, 0.63, 0.63, 0.63)
-	colors[clr.TitleBg]              = ImVec4(0.13, 0.13, 0.13, 0.99)
-	colors[clr.TitleBgActive]        = ImVec4(0.13, 0.13, 0.13, 0.99)
-	colors[clr.TitleBgCollapsed]     = ImVec4(0.05, 0.05, 0.05, 0.79)
+	colors[clr.TitleBg]              = ImVec4(0, 96 / 255, 230 / 255, 0.75)
+	colors[clr.TitleBgActive]        = ImVec4(0, 96 / 255, 230 / 255, 0.75)
+	colors[clr.TitleBgCollapsed]     = ImVec4(0, 96 / 255, 230 / 255, 0.75)
 	colors[clr.MenuBarBg]            = ImVec4(0.14, 0.14, 0.14, 1.00)
 	colors[clr.ScrollbarBg]          = ImVec4(0.02, 0.02, 0.02, 0.53)
 	colors[clr.ScrollbarGrab]        = ImVec4(0.31, 0.31, 0.31, 1.00)
@@ -132,16 +132,18 @@ function onRenderNotification()
 					push = true
 				end
 				local nText = u8(tostring(v.text))
-				notfList.size = imgui_notf.GetFont():CalcTextSizeA(imgui_notf.GetFont().FontSize, 200.0, 196.0, nText)
+				notfList.size = imgui_notf.GetFont():CalcTextSizeA(imgui_notf.GetFont().FontSize, 300.0, 200.0, nText)
+				notfList.size.y = notfList.size.y + 20
 				notfList.pos = imgui_notf.ImVec2(notfList.pos.x,
 					notfList.pos.y - (notfList.size.y + (count == 1 and 8 or 13)))
+				notfList.pos.y = notfList.pos.y - 20
 				imgui_notf.SetNextWindowPos(notfList.pos, _, imgui_notf.ImVec2(0.0, 0.0))
 				imgui_notf.SetNextWindowSize(imgui_notf.ImVec2(300,
-					notfList.size.y + imgui_notf.GetStyle().ItemSpacing.y + imgui_notf.GetStyle().WindowPadding.y))
-				imgui_notf.Begin(u8 '##msg' .. k, _,
+					notfList.size.y + imgui_notf.GetStyle().ItemSpacing.y + imgui_notf.GetStyle().WindowPadding.y + 5))
+				imgui_notf.Begin("LustCMD Notification #" .. k, _,
 					imgui_notf.WindowFlags.NoCollapse + imgui_notf.WindowFlags.NoResize +
 					imgui_notf.WindowFlags.NoScrollbar +
-					imgui_notf.WindowFlags.NoMove + imgui_notf.WindowFlags.NoTitleBar)
+					imgui_notf.WindowFlags.NoMove)
 				imgui_notf.TextWrapped(nText)
 				imgui_notf.End()
 				if push then
@@ -154,11 +156,11 @@ function onRenderNotification()
 	notfList = {
 		pos = {
 			x = sX - 300,
-			y = sY - 50
+			y = sY - 300
 		},
 		npos = {
 			x = sX - 300,
-			y = sY - 50
+			y = sY - 300
 		},
 		size = {
 			x = 300,
