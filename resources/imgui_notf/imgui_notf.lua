@@ -140,7 +140,7 @@ function onRenderNotification()
 				imgui_notf.SetNextWindowPos(notfList.pos, _, imgui_notf.ImVec2(0.0, 0.0))
 				imgui_notf.SetNextWindowSize(imgui_notf.ImVec2(300,
 					notfList.size.y + imgui_notf.GetStyle().ItemSpacing.y + imgui_notf.GetStyle().WindowPadding.y + 5))
-				imgui_notf.Begin("LustCMD Notification #" .. k, _,
+				imgui_notf.Begin("Lust Notification #" .. k, _,
 					imgui_notf.WindowFlags.NoCollapse + imgui_notf.WindowFlags.NoResize +
 					imgui_notf.WindowFlags.NoScrollbar +
 					imgui_notf.WindowFlags.NoMove)
