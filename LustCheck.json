@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2432",
-        "cmdVersion": "2.4.3.2",
+        "buildVersion": "2440",
+        "cmdVersion": "2.4.4.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Adaugate push notifications pentru anumite optiuni ale modului.",
         "Modificat aspectul mesajului in Lust Chat.",
         "Actualizari design.",
         "Rezolvat un bug ce facea ca toate script-urile lua sa se inchida din cauza la chat. Exista, totusi, inca o mica sansa pentru ca acest lucru sa se intample.",
