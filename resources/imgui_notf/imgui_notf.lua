@@ -97,6 +97,12 @@ end
 
 setstyle()
 
+function EXPORTS.setUserStyle(colorVec)
+	colors[clr.TitleBg]          = ImVec4(colorVec)
+	colors[clr.TitleBgActive]    = ImVec4(colorVec)
+	colors[clr.TitleBgCollapsed] = ImVec4(colorVec)
+end
+
 function main()
 	while true do
 		wait(0)
@@ -137,10 +143,10 @@ function onRenderNotification()
 				notfList.pos = imgui_notf.ImVec2(notfList.pos.x,
 					notfList.pos.y - (notfList.size.y + (count == 1 and 8 or 13)))
 				notfList.pos.y = notfList.pos.y - 20
-				imgui_notf.SetNextWindowPos(notfList.pos, _, imgui_notf.ImVec2(0.0, 0.0))
+				imgui_notf.SetNextWindowPos(notfList.pos, nil, imgui_notf.ImVec2(0.0, 0.0))
 				imgui_notf.SetNextWindowSize(imgui_notf.ImVec2(300,
-					notfList.size.y + imgui_notf.GetStyle().ItemSpacing.y + imgui_notf.GetStyle().WindowPadding.y))
-				imgui_notf.Begin("Lust Notification #" .. k, _,
+					notfList.size.y + imgui_notf.GetStyle().ItemSpacing.y + imgui_notf.GetStyle().WindowPadding.y + 5))
+				imgui_notf.Begin("Lust Notification #" .. k, nil,
 					imgui_notf.WindowFlags.NoCollapse + imgui_notf.WindowFlags.NoResize +
 					imgui_notf.WindowFlags.NoScrollbar +
 					imgui_notf.WindowFlags.NoMove)
