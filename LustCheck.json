@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2501",
-        "cmdVersion": "2.5.0.1",
+        "buildVersion": "2510",
+        "cmdVersion": "2.5.1.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Actualizat aspectul pentru modificarea temei din meniu.",
         "Smartphone-ul acum functioneaza si cu Chat ID activat.",
         "Adaugat Chat ID.",
         "Adaugat Command Blocker. Acesta va ofera posibilitatea sa blocati accesul la anumite comenzi pe care le alegeti voi.",
