@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2500",
-        "cmdVersion": "2.5.0.0",
+        "buildVersion": "2501",
+        "cmdVersion": "2.5.0.1",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Smartphone-ul acum functioneaza si cu Chat ID activat.",
         "Adaugat Chat ID.",
         "Adaugat Command Blocker. Acesta va ofera posibilitatea sa blocati accesul la anumite comenzi pe care le alegeti voi.",
         "Adaugate logout logs pentru a vedea lista cu toti prietenii care au parasit serverul cat timp erati online.",
