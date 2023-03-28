@@ -1,19 +1,25 @@
 {
     "info": {
-        "buildVersion": "2440",
-        "cmdVersion": "2.4.4.0",
+        "buildVersion": "2500",
+        "cmdVersion": "2.5.0.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
-        "Adaugate push notifications pentru anumite optiuni ale modului.",
-        "Modificat aspectul mesajului in Lust Chat.",
-        "Actualizari design.",
-        "Rezolvat un bug ce facea ca toate script-urile lua sa se inchida din cauza la chat. Exista, totusi, inca o mica sansa pentru ca acest lucru sa se intample.",
-        "Adaugata optiunea de a rescrie unele comenzi (/tt si /lm). Modificarea poate fi efectuate din tab-urile Smartphone, respectiv Lust chat.",
-        "Adaugat chat filter. Puteti exclude anumite randuri de chat ce contin unele cuvinte alese de voi. Acesta se gaseste in tab-ul Comenzi utile > Chat filter.",
-        "Adaugat Lust Chat. Cu ajutorul acestuia, puteti crea o camera in care sa discutati cu prietenii vostri. Conectati-va toti la acelasi ID si veti avea acces la chat. Optiunea poate fi activata/dezactivata din setari."
+        "Adaugat Chat ID.",
+        "Adaugat Command Blocker. Acesta va ofera posibilitatea sa blocati accesul la anumite comenzi pe care le alegeti voi.",
+        "Adaugate logout logs pentru a vedea lista cu toti prietenii care au parasit serverul cat timp erati online.",
+        "Adaugate notificari custom la deconectarea prietenilor de pe server. Se poate reveni si la metoda veche tip chat text."
     ],
     "updateLogsNew": {
+        "v2.4": [
+            "Adaugate push notifications pentru anumite optiuni ale modului.",
+            "Modificat aspectul mesajului in Lust Chat.",
+            "Actualizari design.",
+            "Rezolvat un bug ce facea ca toate script-urile lua sa se inchida din cauza la chat. Exista, totusi, inca o mica sansa pentru ca acest lucru sa se intample.",
+            "Adaugata optiunea de a rescrie unele comenzi (/tt si /lm). Modificarea poate fi efectuate din tab-urile Smartphone, respectiv Lust chat.",
+            "Adaugat chat filter. Puteti exclude anumite randuri de chat ce contin unele cuvinte alese de voi. Acesta se gaseste in tab-ul Comenzi utile > Chat filter.",
+            "Adaugat Lust Chat. Cu ajutorul acestuia, puteti crea o camera in care sa discutati cu prietenii vostri. Conectati-va toti la acelasi ID si veti avea acces la chat. Optiunea poate fi activata/dezactivata din setari."
+        ],
         "v2.3": [
             "Smartphone-ul imbunatatit pentru a detecta mai bine nickname-urile cand se trimit mesaje dupa acestea.",
             "Fuck casino imbunatatit.",
