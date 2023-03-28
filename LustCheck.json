@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2510",
-        "cmdVersion": "2.5.1.0",
+        "buildVersion": "2511",
+        "cmdVersion": "2.5.1.1",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Chat ID improvements & design updates.",
         "Actualizat aspectul pentru modificarea temei din meniu.",
         "Smartphone-ul acum functioneaza si cu Chat ID activat.",
         "Adaugat Chat ID.",
