@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2530",
-        "cmdVersion": "2.5.3.0",
+        "buildVersion": "2540",
+        "cmdVersion": "2.5.4.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Adaugata optiune pentru auto capitalize la mesajele trimise.",
         "A fost facut un rebranding al modului. Daca aveti mod-ul pe disk-ul C, dupa update intrati in folder-ul principal al jocului -> moonloader si stergeti fisierul LustCMD.luac.",
         "Imbunatatit testul gun cu jucatorii de level 90+.",
         "Pentru a nu afecta performanta modului, Lust Chat a fost sters. Acesta va fi descarcat automat ca un mod separat daca l-ati utilizat pana acum.",
