@@ -1,10 +1,11 @@
 {
     "info": {
-        "buildVersion": "2542",
-        "cmdVersion": "2.5.4.2",
+        "buildVersion": "2550",
+        "cmdVersion": "2.5.5.0",
         "securityUpdate": "no"
     },
     "whatsNew": [
+        "Code improvements & fixes.",
         "Adaugata optiune pentru auto capitalize la mesajele trimise.",
         "A fost facut un rebranding al modului. Daca aveti mod-ul pe disk-ul C, dupa update intrati in folder-ul principal al jocului -> moonloader si stergeti fisierul LustCMD.luac.",
         "Imbunatatit testul gun cu jucatorii de level 90+.",
