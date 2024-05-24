@@ -147,7 +147,6 @@
         "[HC]",
         "[WAR]",
         "KD.",
-        ".art",
         ".Si",
         "[Elite]",
         "[X]",
@@ -177,7 +176,8 @@
         "[TP]",
         "Don.",
         "[Mafiot]",
-        "[EST]"
+        "[EST]",
+        ".art"
     ],
     "arr": {
         "Twenty": "",
